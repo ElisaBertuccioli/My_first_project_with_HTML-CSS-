@@ -1,0 +1,202 @@
+/* Elements generaux*/
+
+body{
+	font-family: verdana;
+}
+
+
+/* Header IDEM */
+header
+{
+	font-family: verdana;
+	background-color: white;
+	min-height: 50px;
+}
+
+header img{
+	display: inline-block;
+	margin-left: 60px;
+	vertical-align: bottom;
+	margin-top: 5px;
+}
+
+nav{
+	font-size: 12px;
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+	margin-right: 50px;
+}
+
+#banniere_image
+{
+    position: relative;
+    height: 300px;
+    width: auto;
+    background: url('images/article_couv.png') no-repeat;
+    background-size: cover;
+}
+
+/* retout à l'acceuil */
+
+h3 a{
+	text-decoration: none;
+	color: grey;
+	font-weight: normal;
+	font-size: 15px;
+	margin-left: 100px;
+}
+
+/* Main Section */
+
+.main_section{
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+}
+
+
+/* Article + Aside */
+
+.article_aside{
+	width: 1300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/* Article */
+
+.article{
+	box-shadow: 3px 3px 10px grey; 
+	width: 1200px;
+	padding: 15px;
+}
+
+.article h1{
+	font-size: 30px;
+}
+.article h2{
+	font-size: 25px;
+	color: #4c89bb;
+}
+
+.article h3{
+	font-size: 0.8em;
+	color: grey;
+
+}
+.article p{
+	font-size: 0.8em;
+	color: grey;
+}
+
+figcaption{
+	text-align: center;
+	font-size: 10px;
+	color: grey;
+}
+
+blockquote{
+	text-align: center;
+	color: #4c89bb;
+	font-size: 35px;
+	font-style: italic;
+}
+
+
+/* Aside */
+
+.aside{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: 30px;
+	color: grey;	
+}
+
+aside a{
+	text-decoration: none;
+	color: purple;
+}
+
+aside h2{
+	font-size: 25px;
+	padding: 5px;
+	font-weight: normal;
+}
+
+aside p{
+	font-size: 0.8em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+aside hr{
+	color: #e7e5e5;
+}
+
+#aside_1{
+	margin-bottom: 100px;
+}
+
+/* Commentaires*/
+
+img{
+	float: left;
+}
+
+.comments_form{
+	color: grey;
+	margin-top: 50px;
+}
+
+.comments_form h2{
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.comments_form h4{
+	font-size: 0.8em;
+
+}
+
+.comments_form p{
+	font-size: 15px;
+}
+
+.commentaires img{
+	margin-right: 10px;
+}
+
+#commentaire_centrale{
+	margin-left: 40px;
+}
+
+
+fieldset{
+	height: 200px;
+}
+
+form{
+	margin-top: 100px; 
+}
+
+/* Footer IDEM */
+
+footer{
+	background-color: #4c89bb;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-family: verdana;
+}
+
+
